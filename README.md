@@ -3,27 +3,26 @@ This project is a Flask-based RESTful API for temperature monitoring. It allows 
 
 ## Prerequisites
 Make sure you have the following dependencies installed:
-
-Python 3.x
-PostgreSQL
-psycopg2
-dotenv
-Flask
+* Python 3.x
+* PostgreSQL
+* psycopg2
+* dotenv
+* Flask
 
 ## Installation
-### Clone the repository:
+#### Clone the repository:
 git clone https://github.com/mehuljhaver4/Flask-REST-API.git
 
-### Change into the project directory:
+#### Change into the project directory:
 cd flask-temperature-api
 
-### Install the dependencies:
+#### Install the dependencies:
 pip install -r requirements.txt
 
 ## Configuration
 Create a .env file in the project root directory.
 
-### Add the following variables to the .env file and provide appropriate values:
+#### Add the following variables to the .env file and provide appropriate values:
 DATABASE_URL= your_postgresql_database_url
 
 ## API Endpoints
